@@ -18,14 +18,14 @@ public class Aufgaben260320214 {
             if (rZahl1 == rZahl2){
                 gesammt += (rZahl1*100);
             } else
-                if (rZahl1 > rZahl2){
-                    rZahl1 = rZahl1*10;
-                    gesammt += rZahl1 + rZahl2;
+            if (rZahl1 > rZahl2){
+                rZahl1 = rZahl1*10;
+                gesammt += rZahl1 + rZahl2;
             } else
-                if (rZahl1 < rZahl2){
-                    rZahl2 = rZahl2*10;
-                    gesammt += rZahl1 + rZahl2;
-                }
+            if (rZahl1 < rZahl2){
+                rZahl2 = rZahl2*10;
+                gesammt += rZahl1 + rZahl2;
+            }
         } while (gesammt <= 10000);
 
         maexchenpro = maexchen/wuerfe*100;
