@@ -3,8 +3,8 @@ package Schule;
 public class Aufgaben260320214 {
     public static void main (String[] args){
         System.out.println("++++++ Mäxchen +++++++");
-        int rZahl1, rZahl2, gesammt = 0, maexchen = 0, wuerfe = 0;
-        double maexchenpro;
+        int rZahl1, rZahl2, gesammt = 0;
+        double maexchenpro, maexchen = 0, wuerfe = 0;
         do {
             rZahl1 = (int) (Math.random()*6 +1);
             rZahl2 = (int) (Math.random()*6 +1);
